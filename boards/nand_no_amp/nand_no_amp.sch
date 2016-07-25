@@ -1585,8 +1585,8 @@ Variant PTH is our storefront SKU PRT-08032</description>
 <instance part="GND3" gate="1" x="-5.08" y="-33.02"/>
 <instance part="GND4" gate="1" x="20.32" y="-33.02"/>
 <instance part="GND5" gate="1" x="53.34" y="-7.62"/>
-<instance part="JP1" gate="G$1" x="119.38" y="12.7" rot="R180"/>
-<instance part="GND7" gate="1" x="96.52" y="7.62"/>
+<instance part="JP1" gate="G$1" x="78.74" y="12.7" rot="R180"/>
+<instance part="GND7" gate="1" x="68.58" y="7.62"/>
 <instance part="9V" gate="A" x="-58.42" y="40.64"/>
 <instance part="C11" gate="G$1" x="-38.1" y="45.72"/>
 <instance part="C12" gate="G$1" x="-27.94" y="45.72"/>
@@ -1738,7 +1738,7 @@ Variant PTH is our storefront SKU PRT-08032</description>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="SLEEVE"/>
-<wire x1="114.3" y1="10.16" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1787,13 +1787,13 @@ Variant PTH is our storefront SKU PRT-08032</description>
 <segment>
 <pinref part="TM5" gate="G$1" pin="S"/>
 <pinref part="JP1" gate="G$1" pin="LEFT"/>
-<wire x1="96.52" y1="15.24" x2="114.3" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="15.24" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="RIGHT"/>
-<wire x1="114.3" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="12.7" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
-<junction x="96.52" y="15.24"/>
-<wire x1="58.42" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="20.32" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="12.7" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<junction x="68.58" y="15.24"/>
+<wire x1="58.42" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
